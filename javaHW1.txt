@@ -1,0 +1,21 @@
+sayHello()
+void sayHello(){
+System.out.println("hello");
+}
+class Hello{
+void sayHello(){
+System.out.println("hello");
+}
+}
+s.run()
+s.setLine(3)
+class Subway{
+int line;
+void run(){
+  System.out.println(line+"line runs");
+}
+void setLine(int l){
+  line=l;
+}
+}
+Subway s=new Subway();
