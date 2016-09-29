@@ -1,0 +1,26 @@
+class Rectangle{
+  private int width;
+  private int height;
+  Rectangle(){}
+  Rectangle(int width,int height){
+    this.width=width;
+    this.height=height;
+   }
+public void setSize(int width,int height){
+    this.width=width;
+   this.height=height;
+   }
+ public int calArea(){
+    return width*height;
+   }
+public int getWidth(){
+  return width;
+  }
+public int getHeight(){
+  return height;
+  }
+}
+Rectangle r=new Rectangle();
+r.setSize(20,20)
+r.getWidth();
+r.calArea();
