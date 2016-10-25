@@ -1,5 +1,5 @@
 package com.sd.Turtle;
-import ch.aplu.Turtle.*;
+import ch.aplu.turtle.*;
 
 class TurtleStar {
 Turtle t1 = new Turtle();
